@@ -6,12 +6,13 @@ NavAble is a full-stack web application designed to manage and explore places wi
 
 ## Project Structure
 
+```bash
 NavAble/
 ├── client/ # React frontend application
 ├── server/ # Express backend API with MongoDB
 ├── .gitignore # Git ignore rules
 ├── README.md # This file
-
+```
 
 ---
 
