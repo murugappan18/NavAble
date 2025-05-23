@@ -1,0 +1,93 @@
+/* AddPlace.css */
+.fullscreen-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.custom-popup {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Segoe UI", sans-serif;
+  min-width: 200px;
+  color: black;
+}
+
+.custom-popup-form {
+  width:300px;
+  max-height: 400px;
+  overflow-y: auto;
+  color: black;
+}
+
+.popup-images img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+/* Form inside Popup */
+.custom-popup-form form {
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 6px;
+  width: 270px;
+}
+
+.custom-popup-form input[type="text"],
+.custom-popup-form select,
+.custom-popup-form textarea,
+.custom-popup-form input[type="file"] {
+  padding: 4px 6px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+}
+
+.custom-popup-form label {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.custom-popup-form textarea {
+  height: 50px;
+  resize: vertical;
+}
+
+.custom-popup-form .facilities-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.custom-popup-form .facilities-grid label {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.custom-popup-form button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.custom-popup-form button[type="button"] {
+  background-color: #e11d48;
+}
+
+.custom-popup-form button:hover {
+  opacity: 0.9;
+}
